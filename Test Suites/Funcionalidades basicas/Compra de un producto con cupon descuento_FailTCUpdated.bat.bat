@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\ex366552\DemoComercial\DemoComercialItera\AutomatizacionTiendaVirtual_PFP.prj" -retry=0 -testSuitePath="Test Suites/Funcionalidades basicas/Compra de un producto con cupon descuento_20231019_115024" -executionProfile="default" -browserType="Chrome"

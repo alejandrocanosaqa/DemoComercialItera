@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\ex366552\DemoComercial\DemoComercialItera\AutomatizacionTiendaVirtual_PFP.prj" -retry=0 -testSuitePath="Test Suites/Funcionalidades basicas/Comprobación de calculo correcto del coste de envío de producto_20231019_115155" -executionProfile="default" -browserType="Chrome"

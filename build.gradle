@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+
+	compile "org.seleniumhq.selenium:selenium-java:3.141.59"
+	compile "org.zaproxy:zap-clientapi:1.8.0"
+	compile "org.zaproxy:zap:2.9.0"
+	testCompile "junit:junit:4.13"
+
+}
