@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/div/div[2]/div/div/div/div/div[6]/div/a</value>
+         <value>//a[contains(.,'¡Úsala aquí!')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ea750536-2026-44ca-85e9-bc7642a55f9e</webElementGuid>
+      <webElementGuid>be4493cc-cec5-452f-a424-5a9dd3ff2cc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>17d99170-5bb9-442e-bf3a-94a51e144630</webElementGuid>
+      <webElementGuid>986e5c27-e1a1-4ca7-95ba-2e686a329965</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ywgc-show-giftcard</value>
-      <webElementGuid>4ecd508a-c672-4978-827d-fe966dcc6590</webElementGuid>
+      <webElementGuid>b25820a6-07b1-4a47-8c87-de384c3c7151</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>¡Úsala aquí!</value>
-      <webElementGuid>71374f77-65e3-47fd-8ce3-8b4d053c6e75</webElementGuid>
+      <webElementGuid>dcc8befa-7a20-418a-b516-ce6702e6e69d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;site-content&quot;)/div[@class=&quot;page-area&quot;]/div[@class=&quot;row&quot;]/article[@class=&quot;col-md-12&quot;]/div[@class=&quot;post-385 page type-page status-publish hentry&quot;]/div[@class=&quot;main-content-page single-content&quot;]/div[@class=&quot;single-entry-summary&quot;]/div[@class=&quot;elementor elementor-385&quot;]/div[@class=&quot;elementor-element elementor-element-aa37ebf e-flex e-con-boxed e-con&quot;]/div[@class=&quot;e-con-inner&quot;]/div[@class=&quot;elementor-element elementor-element-8c34f61 e-con-full e-flex e-con&quot;]/div[@class=&quot;elementor-element elementor-element-b2a24b6 elementor-widget elementor-widget-shortcode&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;elementor-shortcode&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;ywgc_have_code&quot;]/div[@class=&quot;woocommerce-info&quot;]/a[@class=&quot;ywgc-show-giftcard&quot;]</value>
-      <webElementGuid>df145738-0afc-487f-943c-9da4d7dad316</webElementGuid>
+      <webElementGuid>405c4737-7d5a-45f6-a389-5bf738b42a2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='site-content']/div/div/article/div/div/div/div/div/div/div[2]/div/div/div/div/div[6]/div/a</value>
-      <webElementGuid>f32af0b3-949a-4bcb-9acb-48e4f524877f</webElementGuid>
+      <webElementGuid>5abe20a6-baee-4466-9b52-4181f15aeb40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'¡Úsala aquí!')]</value>
-      <webElementGuid>8fc7d4cf-9628-4474-bfc5-dece0c2c8e30</webElementGuid>
+      <webElementGuid>74691914-468a-4631-88c1-87d459be5f41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicar cupón'])[1]/following::a[1]</value>
-      <webElementGuid>ef4aa954-52db-41cf-9efd-67386abba2bd</webElementGuid>
+      <webElementGuid>71eb7aa5-c555-46ae-baa5-974505cc1a3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicar tarjeta regalo'])[1]/preceding::a[1]</value>
-      <webElementGuid>4e0e3a8e-d4ed-481f-a913-e198e5ddf190</webElementGuid>
+      <webElementGuid>b0d31d74-18d0-4d9c-9387-70bfec3e1355</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalles de facturación'])[1]/preceding::a[1]</value>
-      <webElementGuid>095f5edc-903e-4e46-a406-9f879060d5ae</webElementGuid>
+      <webElementGuid>816c983f-6d95-4e50-85db-cc8db91de946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='¡Úsala aquí!']/parent::*</value>
-      <webElementGuid>dc96baf1-72a6-49ec-b059-96983d7d9b3d</webElementGuid>
+      <webElementGuid>b6a48ca9-6cac-4fbf-bc3c-8813225d0636</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>0a1395b8-f887-4c1f-b764-dcc91363995f</webElementGuid>
+      <webElementGuid>85a4da3b-92bd-441b-a0e4-4eef70db33f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/a</value>
-      <webElementGuid>aa2ba468-455a-4c7e-aae9-061eefa9e0ab</webElementGuid>
+      <webElementGuid>422ece78-d124-43e1-86dd-e1b18882214c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = '¡Úsala aquí!' or . = '¡Úsala aquí!')]</value>
-      <webElementGuid>f25f1471-7e46-48dc-8424-188bb8b0dd70</webElementGuid>
+      <webElementGuid>9f0084c6-f8d0-4cf5-a89a-46e96a658889</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

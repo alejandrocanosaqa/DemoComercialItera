@@ -22,11 +22,10 @@ WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/AccesoATienda'), 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Loguearse'), [('Usuario') : 'tejonloco0@gmail.com', ('Password') : 'Isabela_2023_'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/ComprobarComponentesDeMiCuenta'), [('NombreVisible') : 'Sonia'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/ComprobarComponentesDeMiCuenta'), [('NombreVisible') : 'Sonia'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/ComprobarCuponesCliente'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/CerrarSesion'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

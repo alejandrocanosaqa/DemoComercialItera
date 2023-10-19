@@ -30,5 +30,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo 
 WebUI.verifyElementText(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/h2_Aqu tienes tu cupn con un descuento del _488281'), 
     'Aquí tienes tu cupón con un descuento del 10% para tu próxima compra')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/div_10Cart discountmhj8p64w i'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Compra de un grupo de productos con descuentos con cliente registrado/Page_Gracias por tu compra -/TextoCupon'))
 
