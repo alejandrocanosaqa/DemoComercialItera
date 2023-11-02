@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercial</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercialNuevo</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

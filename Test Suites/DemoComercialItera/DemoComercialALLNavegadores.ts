@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercial</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercialNuevo</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercial</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercialNuevo</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercial</testSuiteEntity>
+         <testSuiteEntity>Test Suites/DemoComercialItera/DemoComercialNuevo</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
