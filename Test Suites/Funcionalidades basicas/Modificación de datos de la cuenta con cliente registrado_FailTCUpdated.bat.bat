@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -projectPath="C:\Users\ex366552\git\DemoComercialItera\AutomatizacionTiendaVirtual_PFP.prj" -retry=0 -testSuitePath="" -executionProfile="default" -browserType="Chrome"
