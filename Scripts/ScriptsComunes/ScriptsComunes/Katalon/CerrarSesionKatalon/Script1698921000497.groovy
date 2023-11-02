@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/AccesoAPaginaKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_My Organization_01 - Katalon TestOps/span_AC'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/LogueoEnKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_My Organization_01 - Katalon TestOps/span_Sign Out'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/CerrarSesionKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.closeBrowser()
 

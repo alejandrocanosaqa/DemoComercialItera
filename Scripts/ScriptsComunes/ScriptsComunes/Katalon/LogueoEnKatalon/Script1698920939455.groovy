@@ -17,9 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/AccesoAPaginaKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_Katalon AI-augmented Software Quality _596167/a_Log in'))
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/LogueoEnKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_or sign in with work email_username'), 
+    'democomercial@pruebasqafenix.com')
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/CerrarSesionKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_or sign in with work email_password'), 
+    'SsTbB7FmLcVcexv/GALMDg==')
+
+WebUI.click(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_or sign in with work email_login'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_My Organization_01 - Katalon TestOps/div_Welcome to My Organization_01'), 
+    'Welcome to My Organization_01')
 

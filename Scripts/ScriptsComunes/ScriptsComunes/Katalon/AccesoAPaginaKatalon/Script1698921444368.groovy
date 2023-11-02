@@ -17,9 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/AccesoAPaginaKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/LogueoEnKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.maximizeWindow()
 
-WebUI.callTestCase(findTestCase('ScriptsComunes/ScriptsComunes/Katalon/CerrarSesionKatalon'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://www.google.es/?gws_rd=ssl')
+
+WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/div_Aceptar todo'))
+
+WebUI.setText(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/textarea__q'), 'katalon')
+
+WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/span_katalon'))
+
+WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_katalon - Buscar con Google/span_Katalon Platform - Katalon for Mobile Testing'))
+
+WebUI.waitForPageLoad(30)
+
+WebUI.enhancedClick(findTestObject('Object Repository/BusquedaEnGoogle/Page_Katalon AI-augmented Software Quality _596167/button_Accept All Cookies'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/BusquedaEnGoogle/Page_Katalon AI-augmented Software Quality _596167/h1_Seamless test automation, supercharged by AI'), 
+    'Seamless test automation, supercharged by AI')
 
