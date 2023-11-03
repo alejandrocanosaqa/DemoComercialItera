@@ -6,12 +6,16 @@
    <elementGuidId>e8d86046-ef21-43dc-991c-6646a34920a6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content']/div/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.title-text</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Welcome to My Organization_01' and (text() = 'Welcome to My Organization_01' or . = 'Welcome to My Organization_01')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='title-text'][contains(.,'Welcome to DemoComercial')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3cad2c9e-d407-467a-8e2c-9668709367c5</webElementGuid>
+      <webElementGuid>7b4caa9e-3e85-4cc7-b746-41a16787bb07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>title-text</value>
-      <webElementGuid>ef119762-fb2d-4992-94a3-0f05af672817</webElementGuid>
+      <webElementGuid>b9d5191c-1c4d-41e3-abcb-672c6c384630</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Welcome to My Organization_01</value>
-      <webElementGuid>a9997534-fb0b-4190-ae81-8df26682b7f3</webElementGuid>
+      <webElementGuid>bb510ea5-751d-40c4-b166-42a392fe6047</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Welcome to My Organization_01</value>
-      <webElementGuid>6290aec1-40fd-4630-822e-c5667cb1b0a2</webElementGuid>
+      <webElementGuid>adea6789-05d5-45eb-9c4e-c3e78fb3bac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;main-header transition-visible&quot;]/div[@class=&quot;object-summary&quot;]/div[@class=&quot;object-title&quot;]/div[@class=&quot;title-text&quot;]</value>
-      <webElementGuid>10ed79fa-32d9-465b-b2c0-d2f1503021b6</webElementGuid>
+      <webElementGuid>9dbf102c-b6ea-408b-99fa-26857009b68d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content']/div/div/div/div</value>
-      <webElementGuid>861c4039-deb9-4678-9d58-6832ae023346</webElementGuid>
+      <webElementGuid>33298bba-1200-4512-a4fa-1b6987ccaf93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AC'])[1]/following::div[7]</value>
-      <webElementGuid>2351621e-5f20-4610-8189-66773a8d4dc9</webElementGuid>
+      <webElementGuid>c8ee9bf1-d17e-41da-a412-2002215e1e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Organization_01'])[1]/following::div[13]</value>
-      <webElementGuid>391949b9-0ac6-4f1d-a3f8-1229788585f1</webElementGuid>
+      <webElementGuid>f95a3c62-b383-4d7a-8fb5-c6fd2daab06f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Recent Projects'])[1]/preceding::div[4]</value>
-      <webElementGuid>de8dac32-e240-42d4-aa5b-4ff0db864380</webElementGuid>
+      <webElementGuid>24882aba-196f-481c-b4c1-2876d9b7709c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View all projects'])[1]/preceding::div[5]</value>
-      <webElementGuid>b1eab251-db5b-4dee-a7db-beb2e4f40e67</webElementGuid>
+      <webElementGuid>829bcdfb-a485-49de-9445-e7f1df8c2ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Welcome to My Organization_01']/parent::*</value>
-      <webElementGuid>63fff22d-a632-4900-a00a-4de3ca9c400f</webElementGuid>
+      <webElementGuid>e0f87b8c-4136-4271-8e9f-76dfdb26abba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div</value>
-      <webElementGuid>25e95587-aee4-441f-accf-6d9a1318a0c7</webElementGuid>
+      <webElementGuid>f4f45959-c0eb-4ec9-8e8b-777e0087fd42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@title = 'Welcome to My Organization_01' and (text() = 'Welcome to My Organization_01' or . = 'Welcome to My Organization_01')]</value>
-      <webElementGuid>51e09e6d-3d6c-4bc1-addf-cd4b83927267</webElementGuid>
+      <webElementGuid>2717bbaf-ab26-426f-9b8e-b035a1eed5a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
