@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.google.es/?gws_rd=ssl')
 
-WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/div_Aceptar todo'))
+WebUI.enhancedClick(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/div_Aceptar todo'))
 
 WebUI.setText(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/textarea__q'), 'katalon')
 
 WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_Google/span_katalon'))
 
-WebUI.click(findTestObject('Object Repository/BusquedaEnGoogle/Page_katalon - Buscar con Google/span_Katalon Platform - Katalon for Mobile Testing'))
+WebUI.enhancedClick(findTestObject('Object Repository/BusquedaEnGoogle/Page_katalon - Buscar con Google/span_Katalon Platform - Katalon for Mobile Testing'))
 
 WebUI.waitForPageLoad(30)
 
