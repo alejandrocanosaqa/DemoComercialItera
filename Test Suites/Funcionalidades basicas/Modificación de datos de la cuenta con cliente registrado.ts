@@ -29,26 +29,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/Loguearse</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>cc7c46cb-3f37-4fea-be41-2cb305276747</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>cc7c46cb-3f37-4fea-be41-2cb305276747</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Usuario</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ae4f7622-601b-4589-a169-a483407a454e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>cc7c46cb-3f37-4fea-be41-2cb305276747</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>819de514-dc68-4e12-9729-270f15818847</variableId>
       </variableLink>
    </testCaseLink>
@@ -57,20 +48,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobarComponentesDeMiCuenta</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5d9433a6-0f3e-4393-b240-06ad8b0f4fb9</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5d9433a6-0f3e-4393-b240-06ad8b0f4fb9</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NombreVisible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>a244ce83-796d-4564-9245-c715b979865e</variableId>
       </variableLink>
    </testCaseLink>
@@ -79,20 +61,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/DarseDeBajaBoletin_Y_CambiarNombreVisible</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>904a560a-44e8-4d2a-acd7-4ec0f5a37f1e</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>904a560a-44e8-4d2a-acd7-4ec0f5a37f1e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NombreVisible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>aa1e672f-35fe-476d-9011-a29802490d6e</variableId>
       </variableLink>
    </testCaseLink>

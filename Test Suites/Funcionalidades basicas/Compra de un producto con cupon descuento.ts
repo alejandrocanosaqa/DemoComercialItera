@@ -49,26 +49,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/LoginDesdeCheckout</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ddf5318c-7617-4141-99a9-ea13d5935338</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ddf5318c-7617-4141-99a9-ea13d5935338</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Usuario</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>bb30f80a-66ed-4186-9991-0055fccacd5e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ddf5318c-7617-4141-99a9-ea13d5935338</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>974db152-9dab-4403-9aa5-b817dc149cb7</variableId>
       </variableLink>
    </testCaseLink>
@@ -77,20 +68,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/UtilizarCupon</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1c64992a-e49c-4fb7-9daa-0da8ddd29ca4</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>1c64992a-e49c-4fb7-9daa-0da8ddd29ca4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Cupon</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c3d15992-ce8f-412d-b2f1-34770a38a9d8</variableId>
       </variableLink>
    </testCaseLink>

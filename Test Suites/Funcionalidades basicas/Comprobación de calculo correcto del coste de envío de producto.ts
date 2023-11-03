@@ -43,32 +43,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScriptsComunes/ScriptsComunes/ComprobarCalculoCosteDeEnvio</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>20a4d73c-5baf-4cf6-8041-6e2ee63c10fe</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Datos</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>20a4d73c-5baf-4cf6-8041-6e2ee63c10fe</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Ciudad</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>87140901-f8ba-4393-98e1-a1dca024f671</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>20a4d73c-5baf-4cf6-8041-6e2ee63c10fe</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CP</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c7e9dd73-4e83-4e8f-affe-2374c537e04a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>20a4d73c-5baf-4cf6-8041-6e2ee63c10fe</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CosteDeEnvio</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>7b3f97c9-3120-4346-9aba-1c8830cb5fbf</variableId>
       </variableLink>
    </testCaseLink>
