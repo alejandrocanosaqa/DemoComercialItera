@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[(text() = 'Aceptar todo' or . = 'Aceptar todo')]</value>
+         <value>//div[(@class=&quot;QS5gu sy4vM&quot;) and (text() = 'Aceptar todo' or . = 'Aceptar todo')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1af9be35-dcfd-499f-ad7f-a091689d276c</webElementGuid>
+      <webElementGuid>257dcfbf-e69c-4d2d-af40-d61e3698bba2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>QS5gu sy4vM</value>
-      <webElementGuid>f7fd3982-cb6e-4c60-9c60-3edda4c14e26</webElementGuid>
+      <webElementGuid>ba3b841e-963d-4eb1-94b4-93cc3f865f28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>f8239cca-218b-4f26-a72e-ed1e5b79db57</webElementGuid>
+      <webElementGuid>bc5de152-5376-4bde-a7b1-ec7763d76c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aceptar todo</value>
-      <webElementGuid>ab6e9923-4862-4776-8235-fdbefbd1b3a7</webElementGuid>
+      <webElementGuid>3133704f-1dd2-4c3d-9e4e-0d973c606080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;L2AGLb&quot;)/div[@class=&quot;QS5gu sy4vM&quot;]</value>
-      <webElementGuid>9b67fa87-bf66-45d6-8fb5-bc3a1b7b7d77</webElementGuid>
+      <webElementGuid>7dc6d212-e017-493d-aecf-5c87a8536672</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='L2AGLb']/div</value>
-      <webElementGuid>89a734df-0bc9-4460-9c0b-566b9b28dbbd</webElementGuid>
+      <webElementGuid>65e3ade4-d654-481a-a4a1-a6d2a14e7ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechazar todo'])[1]/following::div[1]</value>
-      <webElementGuid>f374775d-db9f-428d-bc80-7e116c47d5aa</webElementGuid>
+      <webElementGuid>4cab2db0-2e0f-4c6a-ab47-b86edc11d102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='g.co/privacytools/es'])[1]/following::div[4]</value>
-      <webElementGuid>d6ece885-f241-4e7d-b108-828a6f87184a</webElementGuid>
+      <webElementGuid>a72198d9-b083-47a1-9fad-e0356d9cfdec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Más opciones'])[1]/preceding::div[1]</value>
-      <webElementGuid>955f0dc6-5047-4bbe-ab61-be302de3387c</webElementGuid>
+      <webElementGuid>2e9ac261-518d-49fd-b029-b4de723fc0d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacidad'])[2]/preceding::div[2]</value>
-      <webElementGuid>51b41996-0e48-4247-a987-a755183bcbdd</webElementGuid>
+      <webElementGuid>3cd2ed1e-160c-45d8-8787-deff64602ed6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aceptar todo']/parent::*</value>
-      <webElementGuid>dbab1984-bdbf-4bf0-9dbd-eb9373111f13</webElementGuid>
+      <webElementGuid>cdc17443-0b99-4de7-a368-c2f5eafe3618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/div</value>
-      <webElementGuid>18ba52ea-43bd-48a2-830f-06ad10a87eb7</webElementGuid>
+      <webElementGuid>e1e4d25d-6c38-4bd1-ae34-6415c57b6a9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Aceptar todo' or . = 'Aceptar todo')]</value>
-      <webElementGuid>d5f51b0c-f7a7-4902-9569-6f99d045494e</webElementGuid>
+      <webElementGuid>e54bd389-5393-4029-af7f-a0a337f9c7f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
