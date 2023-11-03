@@ -28,5 +28,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/IniciarSesionEnKatalon/
 WebUI.click(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_Sign in  Katalon Software Quality Mana_cfddb7/input_or sign in with work email_login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/IniciarSesionEnKatalon/Page_My Organization_01 - Katalon TestOps/div_Welcome to My Organization_01'), 
-    'Welcome to My Organization_01')
+    'Welcome to DemoComercial')
 
