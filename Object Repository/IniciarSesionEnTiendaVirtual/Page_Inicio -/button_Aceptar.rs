@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Aceptar todo</name>
+   <name>button_Aceptar</name>
    <tag></tag>
-   <elementGuidId>bd5d68c3-6e6d-4118-9245-9d17c28dc2ec</elementGuidId>
+   <elementGuidId>519dc31a-aae4-4db3-bfb8-bce2a1b64cc5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#L2AGLb > div.QS5gu.sy4vM</value>
+         <value>#cookies-eu-accept</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Aceptar todo']/parent::*</value>
+         <value>//button[@id='cookies-eu-accept']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>41e598cb-9cd3-4961-ba1f-5899a22fb09b</webElementGuid>
+      <value>button</value>
+      <webElementGuid>8db28a37-7d3f-4baa-aea1-fa360974b5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cookies-eu-accept</value>
+      <webElementGuid>0fbe0fea-5a7e-4487-857e-54655f3df423</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>QS5gu sy4vM</value>
-      <webElementGuid>c1f1cf37-221e-4e41-93fe-b8294f05dc05</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>none</value>
-      <webElementGuid>e16a851a-e183-4916-93cb-e5508649e6b1</webElementGuid>
+      <value>cookies-eu-accept</value>
+      <webElementGuid>a043ce51-952e-4f60-9794-e7f9251dad01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Aceptar todo</value>
-      <webElementGuid>05753faa-4685-499f-a04f-943355d2c78b</webElementGuid>
+      <value>Aceptar</value>
+      <webElementGuid>e08d961a-2b53-4d25-bb53-ace32cba3161</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;L2AGLb&quot;)/div[@class=&quot;QS5gu sy4vM&quot;]</value>
-      <webElementGuid>f3330ad5-11e6-4c13-ac40-4778479c8ea4</webElementGuid>
+      <value>id(&quot;cookies-eu-accept&quot;)</value>
+      <webElementGuid>9a4cd0b9-ae29-4d79-a646-65c1658f74e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='cookies-eu-accept']</value>
+      <webElementGuid>f5a61722-8469-44ca-a769-fbcf20762665</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='L2AGLb']/div</value>
-      <webElementGuid>cf8070bd-8ba5-4260-9249-9448561be7ce</webElementGuid>
+      <value>//div[@id='cookies-eu-buttons']/button[2]</value>
+      <webElementGuid>795e8404-da6b-481e-b755-a3c065e95c54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechazar todo'])[1]/following::div[1]</value>
-      <webElementGuid>fe5c5919-b92e-4e3d-a035-bf7587a3f758</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rechazar'])[1]/following::button[1]</value>
+      <webElementGuid>11419f1d-40ed-4c80-8086-af356d3f26f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='g.co/privacytools/es'])[1]/following::div[4]</value>
-      <webElementGuid>433a3b14-430d-4224-8aa8-7f0abd4358d2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más información'])[1]/following::button[2]</value>
+      <webElementGuid>22db7d2b-ff05-4e0c-9159-de062c6b524f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Más opciones'])[1]/preceding::div[1]</value>
-      <webElementGuid>2736590e-747f-49ee-9c5c-ef2800bfba36</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacidad'])[1]/preceding::button[1]</value>
+      <webElementGuid>1999f9f2-65d3-4061-974d-c3ee0a830206</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacidad'])[2]/preceding::div[2]</value>
-      <webElementGuid>2ba10d1b-9912-480c-a402-63b015cad9df</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Texte d', &quot;'&quot;, 'origine')])[1]/preceding::button[7]</value>
+      <webElementGuid>ffc942b4-d19b-45c4-86fc-edab62b755b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Aceptar todo']/parent::*</value>
-      <webElementGuid>384630f7-c0f8-4480-afea-61bb3823fd1e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>cb3668bd-3742-4735-9b29-97b8d69826ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button[2]/div</value>
-      <webElementGuid>ef1c515e-cb19-4dd6-bf8b-ef377a866e99</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>5819bcf8-f69d-4f12-8550-d79d72afbba1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Aceptar todo' or . = 'Aceptar todo')]</value>
-      <webElementGuid>01cdbf37-5b74-4d03-9957-44eab96d14c8</webElementGuid>
+      <value>//button[@id = 'cookies-eu-accept' and (text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>a340087f-03ed-4736-a514-6a89c518582a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
